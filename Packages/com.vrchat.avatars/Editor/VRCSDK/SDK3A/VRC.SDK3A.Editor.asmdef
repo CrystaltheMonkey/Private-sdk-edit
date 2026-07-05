@@ -1,0 +1,33 @@
+{
+    "name": "VRC.SDK3A.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5718fb738711cd34ea54e9553040911d",
+        "GUID:6e9c6119ac4eb334284fb7b4bc6d1f05",
+        "GUID:3456780c4fb2d324ab9c633d6f1b0ddb",
+        "VRC.Enums.Validation.Performance",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vrchat.base",
+            "expression": "3.0.0",
+            "define": "VRC_SDK_VRCSDK3"
+        },
+        {
+            "name": "com.vrchat.base",
+            "expression": "3.0.0",
+            "define": "VRCUPM"
+        }
+    ],
+    "noEngineReferences": false
+}
